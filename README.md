@@ -2,7 +2,7 @@
 
 Mis soluciones para [Codember](https://codember.dev/)! Este año me pilla aprendiendo Python, así que he decidido resolverlas en ese lenguaje como práctica extra :)
 
-[logo.png](https://raw.githubusercontent.com/marta-vilaseca/codember-2023/main/logo.png)
+[![clogo.png](https://raw.githubusercontent.com/marta-vilaseca/codember-2023/main/logo.png)](https://raw.githubusercontent.com/marta-vilaseca/codember-2023/main/logo.png)
 
 ## 💻 Retos
 
