@@ -5,10 +5,25 @@
 "*" Multiplica el valor numérico por sí mismo.
 "&" Imprime el valor numérico actual.
 """
-f = open('data.txt', 'r')
-file_contents = f.read()
 
-def compiler(message):
+def read_file(file: str) -> str:
+    '''
+    Lee el archivo y devuelve
+    el mensaje cifrado en formato string
+    '''
+    with open(file, 'r', encoding="utf-8") as text_file:
+        file_contents = text_file.read() 
+    
+    return file_contents
+
+secret_message = read_file('data.txt')
+
+def compiler(message) -> int:
+    '''
+    Calcula el significado del mensaje cifrado
+    de acuerdo a las especificaciones dadas.
+    Devuelve un entero.
+    '''
     translated = ''
     current_value = 0
     for character in message:
@@ -26,6 +41,5 @@ def compiler(message):
         
     return translated
 
-print('submit ' + compiler(file_contents))
-
-f.close()
+# Imprimimos el resultado de decodificar el mensaje
+print('submit ' + compiler(secret_message))
