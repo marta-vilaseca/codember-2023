@@ -12,6 +12,7 @@ Mis soluciones para [Codember](https://codember.dev/)! Este año me pilla aprend
 | 2   | [Mini Compiler Challenge](./challenge_02/README.md)           | [solución](./challenge_02/02.py) |
 | 3   | [El Desafío del Cifrado Espía](./challenge_03/README.md)      | [solución](./challenge_03/03.py) |
 | 4   | [Hackers dañan sistema de archivos](./challenge_04/README.md) | [solución](./challenge_04/04.py) |
+| 5   | [El problema final](./challenge_05/README.md)                 | [solución](./challenge_05/05.py) |
 
 ### Codember es un evento organizado por [midudev](https://twitter.com/midudev). Muchas gracias! 🧡
 
